@@ -1,4 +1,14 @@
 data:extend{
+
+	-- Adding global boolean for the isdebug module
+	{
+		type = "bool-setting",
+		name = "enable-debugging",
+		setting_type = "runtime-global",
+		order = "a",
+		default_value = false,
+	},
+
 	{
 		type = "bool-setting",
 		name = "disable-distribute",

@@ -7,6 +7,5 @@ _zipIt.vbs
 \.git\
 \.github\
 .gitignore
-isdebug.lua
 .pdn
 \.vscode\
